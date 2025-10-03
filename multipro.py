@@ -14,7 +14,7 @@ def multiprocessing_func(x):
     time.sleep(2)
     print('{} squared results in a/an {} number'.format(x, basic_func(y)))
 
-if __name__ == 'main':
+if __name__ == '__main__':
     starttime = time.time()
     processes = []
     for i in range(0, 10):
